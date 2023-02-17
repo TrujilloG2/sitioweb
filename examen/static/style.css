@@ -1,0 +1,119 @@
+/* Header section */
+.contenedor-1{
+    width: 100%;
+    height: 100vh;
+    background-position: right;
+    background-size: cover;
+}
+.cabecera{
+    background-color: rgb(1, 114, 167);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo{
+    height: 80px;
+    width: 600px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.navegacion{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+/* End Header section */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    /*background: url(imagen/fondo.jpg);*/
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background-color: transparent;
+    color: #0c0c0c;
+    float:left;
+    margin-left: 70%;
+    margin-top: -20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type = "text"], input[type = "password"] {
+    border: none;
+    border-bottom: 1px solid #0e0d0d;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #0f0f0f;
+    font-size: 16px;
+}
+
+.loginbox input [type = "submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #08b0ce;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover {
+    color: #fff;
+}
